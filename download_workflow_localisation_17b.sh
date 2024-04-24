@@ -147,6 +147,6 @@ fi
 
 cd /home/runner/ComfyUI
 aria2c --allow-overwrite=false --auto-file-renaming=false --continue=true \
-    --max-connection-per-server=5 --input-file=/home/scripts/download_workflow_localisation_17.txt
+    --max-connection-per-server=5 --input-file=/home/scripts/download_workflow_localisation_17b.txt
 
 touch /home/runner/.download-complete
