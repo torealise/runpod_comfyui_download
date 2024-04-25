@@ -20,7 +20,7 @@ if [ ! -d "/ComfyUI/custom_nodes/was-node-suite-comfyui" ]; then
 fi
 
 if [ ! -d "/ComfyUI/custom_nodes/ComfyUI-KJNodes" ]; then
-    git clone --no-tags --recurse-submodules --shallow-submodules https://github.com/kijai/ComfyUI-KJNodes /custom_nodes/ComfyUI-KJNodes && \
+    git clone --no-tags --recurse-submodules --shallow-submodules https://github.com/kijai/ComfyUI-KJNodes /ComfyUI/custom_nodes/ComfyUI-KJNodes && \
     cd /ComfyUI/custom_nodes/ComfyUI-KJNodes && \
     git reset --hard HEAD
 fi
