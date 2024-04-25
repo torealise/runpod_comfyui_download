@@ -125,6 +125,6 @@ fi
 
 cd /
 aria2c --allow-overwrite=false --auto-file-renaming=false --continue=true \
-    --max-connection-per-server=5 --input-file=/download_workflow_localisation_17b.txt
+    --max-connection-per-server=5 --input-file=download_workflow_localisation_17b.txt
 
 touch ./.download-complete
