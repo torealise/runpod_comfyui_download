@@ -16,7 +16,7 @@ https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/1x-ITF-SkinDiffDetail-Li
 
 # checkpoints
 https://civitai.com/api/download/models/351306
-  out=models/checkpoints/SDXL_Turbo/dreamshaperXL_v21TurboDPMSDE.safetensors
+  out=comfy-models/dreamshaperXL_v21TurboDPMSDE.safetensors
 
 # facerestore_models
 https://huggingface.co/ziixzz/codeformer-v0.1.0.pth/resolve/main/codeformer-v0.1.0.pth?download=true
