@@ -5,17 +5,7 @@ echo '########################################'
 
 set -euxo pipefail
 
-repo_path="/ComfyUI"
-
-if [ ! -d "$repo_path" ]; then
-    git clone --no-tags --recurse-submodules --shallow-submodules https://github.com/comfyanonymous/ComfyUI.git $repo_path
-fi
-
-cd $repo_path
-
-git reset --hard HEAD
-
-cd $repo_path/custom_nodes
+cd /ComfyUI/custom_nodes
 
 if [ ! -d "/ComfyUI/custom_nodes/ComfyUI-KJNodes" ]; then
     git clone --no-tags --recurse-submodules --shallow-submodules https://github.com/ltdrdata/ComfyUI-Manager /ComfyUI/custom_nodes/ComfyUI-Manager && \
