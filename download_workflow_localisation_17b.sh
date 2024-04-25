@@ -135,8 +135,8 @@ if [ ! -d "/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus" ]; then
     git reset --hard HEAD
 fi
 
-cd /ComfyUI
+cd ./
 aria2c --allow-overwrite=false --auto-file-renaming=false --continue=true \
-    --max-connection-per-server=5 --input-file=/ComfyUI/custom_nodes/download_workflow_localisation_17b.txt
+    --max-connection-per-server=5 --input-file=./download_workflow_localisation_17b.txt
 
-touch /ComfyUI/custom_nodes/.download-complete
+touch ./.download-complete
