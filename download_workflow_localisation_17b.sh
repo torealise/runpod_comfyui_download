@@ -13,9 +13,9 @@ if [ ! -d "/ComfyUI/custom_nodes/ComfyUI-KJNodes" ]; then
     git reset --hard HEAD
 fi
 
-if [ ! -d "/custom_nodes/ComfyUI-KJNodes" ]; then
+if [ ! -d "/ComfyUI/custom_nodes/ComfyUI-KJNodes" ]; then
     git clone --no-tags --recurse-submodules --shallow-submodules https://github.com/kijai/ComfyUI-KJNodes /custom_nodes/ComfyUI-KJNodes && \
-    cd /custom_nodes/ComfyUI-KJNodes && \
+    cd /ComfyUI/custom_nodes/ComfyUI-KJNodes && \
     git reset --hard HEAD
 fi
 
@@ -137,6 +137,6 @@ fi
 
 cd /ComfyUI
 aria2c --allow-overwrite=false --auto-file-renaming=false --continue=true \
-    --max-connection-per-server=5 --input-file=/home/scripts/download_workflow_localisation_17b.txt
+    --max-connection-per-server=5 --input-file=/ComfyUI/custom_nodes/download_workflow_localisation_17b.txt
 
-touch /home/runner/.download-complete
+touch /ComfyUI/custom_nodes/.download-complete
