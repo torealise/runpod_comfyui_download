@@ -13,21 +13,15 @@ if [ ! -d "/ComfyUI/custom_nodes/ComfyUI-Manager" ]; then
     git reset --hard HEAD
 fi
 
-if [ ! -d "/ComfyUI/custom_nodes/ComfyUI-KJNodes" ]; then
-    git clone --no-tags --recurse-submodules --shallow-submodules https://github.com/kijai/ComfyUI-KJNodes /custom_nodes/ComfyUI-KJNodes && \
-    cd /ComfyUI/custom_nodes/ComfyUI-KJNodes && \
-    git reset --hard HEAD
-fi
-
 if [ ! -d "/ComfyUI/custom_nodes/was-node-suite-comfyui" ]; then
     git clone --no-tags --recurse-submodules --shallow-submodules https://github.com/WASasquatch/was-node-suite-comfyui /ComfyUI/custom_nodes/was-node-suite-comfyui && \
     cd /ComfyUI/custom_nodes/was-node-suite-comfyui && \
     git reset --hard HEAD
 fi
 
-if [ ! -d "/ComfyUI/custom_nodes/ComfyUI" ]; then
-    git clone --no-tags --recurse-submodules --shallow-submodules https://github.com/comfyanonymous/ComfyUI /ComfyUI/custom_nodes/ComfyUI && \
-    cd /ComfyUI/custom_nodes/ComfyUI && \
+if [ ! -d "/ComfyUI/custom_nodes/ComfyUI-KJNodes" ]; then
+    git clone --no-tags --recurse-submodules --shallow-submodules https://github.com/kijai/ComfyUI-KJNodes /custom_nodes/ComfyUI-KJNodes && \
+    cd /ComfyUI/custom_nodes/ComfyUI-KJNodes && \
     git reset --hard HEAD
 fi
 
@@ -66,12 +60,6 @@ fi
 if [ ! -d "/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes" ]; then
     git clone --no-tags --recurse-submodules --shallow-submodules https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes /ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes && \
     cd /ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes && \
-    git reset --hard HEAD
-fi
-
-if [ ! -d "/ComfyUI/custom_nodes/Fooocus_Nodes" ]; then
-    git clone --no-tags --recurse-submodules --shallow-submodules https://github.com/Seedsa/Fooocus_Nodes /ComfyUI/custom_nodes/Fooocus_Nodes && \
-    cd /ComfyUI/custom_nodes/Fooocus_Nodes && \
     git reset --hard HEAD
 fi
 
