@@ -7,7 +7,7 @@ set -euxo pipefail
 
 cd /ComfyUI/custom_nodes
 
-if [ ! -d "/ComfyUI/custom_nodes/ComfyUI-KJNodes" ]; then
+if [ ! -d "/ComfyUI/custom_nodes/ComfyUI-Manager" ]; then
     git clone --no-tags --recurse-submodules --shallow-submodules https://github.com/ltdrdata/ComfyUI-Manager /ComfyUI/custom_nodes/ComfyUI-Manager && \
     cd /ComfyUI/custom_nodes/ComfyUI-Manager && \
     git reset --hard HEAD
