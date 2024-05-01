@@ -12,7 +12,7 @@ https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/1x-ITF-SkinDiffDetail-Li
 
 # checkpoints Dreamshaper Turbo
 https://civitai.com/api/download/models/351306
-  out=comfy-models/dreamshaperXL_v21TurboDPMSDE.safetensors
+  out=home/runner/ComfyUI/models/dreamshaperXL_v21TurboDPMSDE.safetensors
 
 # facerestore_models codeformer
 https://huggingface.co/ziixzz/codeformer-v0.1.0.pth/resolve/main/codeformer-v0.1.0.pth?download=true
