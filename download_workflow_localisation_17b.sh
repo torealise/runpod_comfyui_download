@@ -37,7 +37,7 @@ if [ ! -d "/ComfyUI/custom_nodes/ComfyUI-post-processing-nodes" ]; then
     git reset --hard HEAD
 fi
 
-wget https://github.com/tudal/Hakkun-ComfyUI-nodes/raw/main/hakkun_nodes.py -P /ComfyUI/custom_nodes/
+wget https://github.com/tudal/Hakkun-ComfyUI-nodes/raw/main/hakkun_nodes.py -P ~/ComfyUI/custom_nodes/
 
 if [ ! -d "/ComfyUI/custom_nodes/comfyui-mixlab-nodes" ]; then
     git clone --no-tags --recurse-submodules --shallow-submodules https://github.com/shadowcz007/comfyui-mixlab-nodes /ComfyUI/custom_nodes/comfyui-mixlab-nodes && \
