@@ -1,86 +1,50 @@
-# ControlNet
+# ControlNet OpenPose
 https://huggingface.co/thibaud/controlnet-openpose-sdxl-1.0/resolve/main/OpenPoseXL2.safetensors
   out=models/controlnet/OpenPoseXL2.safetensors
 
-# ReActor
-https://github.com/facefusion/facefusion-assets/releases/download/models/inswapper_128.onnx
-  out=models/insightface/inswapper_128.onnx
-
-# Ultralytics
+# Ultralytics face
 https://huggingface.co/Bingsu/adetailer/resolve/main/face_yolov8m.pt
   out=models/ultralytics/bbox/face_yolov8m.pt
 
-# Upscale
+# Upscale 1x Skin
 https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/1x-ITF-SkinDiffDetail-Lite-v1.pth?download=true
   out=models/upscale_models/1x-ITF-SkinDiffDetail-Lite-v1.pth
 
-# checkpoints
+# checkpoints Dreamshaper Turbo
 https://civitai.com/api/download/models/351306
   out=comfy-models/dreamshaperXL_v21TurboDPMSDE.safetensors
 
-# facerestore_models
+# facerestore_models codeformer
 https://huggingface.co/ziixzz/codeformer-v0.1.0.pth/resolve/main/codeformer-v0.1.0.pth?download=true
   out=models/facerestore_models/codeformer-v0.1.0.pth
 
-# facerestore_models
+# facerestore_models GFPGANv1.4
 https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.4.pth
   out=models/facerestore_models/GFPGANv1.4.pth
 
-# facerestore_models
+# facerestore_models GFPGANv1.3
 https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.3.pth
   out=models/facerestore_models/GFPGANv1.3.pth
 
-# lora
+# lora clothing_slider
 https://civitai.com/api/download/models/173623
   out=models/loras/sliders/SDXL_clothing_slider_v19_000000030.safetensors
 
 ####################################################
 
-# IP-Adapter
-https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_vit-G.safetensors
-  out=models/ipadapter/ip-adapter_sd15_vit-G.safetensors
-
-# IP-Adapter
+# IP-Adapter ++ FaceID
 https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl.bin
   out=models/ipadapter/ip-adapter-faceid-plusv2_sdxl.bin
 
-# IP-Adapter
-https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-portrait_sd15.bin
-  out=models/ipadapter/ip-adapter-faceid-portrait_sd15.bin
-
-# IP-Adapter
-https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors
-  out=models/loras/ip-adapter-faceid-plusv2_sd15_lora.safetensors
-
-# IP-Adapter
-https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_light.safetensors
-  out=models/ipadapter/ip-adapter_sd15_light.safetensors
-
-# IP-Adapter
-https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plus_sd15_lora.safetensors
-  out=models/loras/ip-adapter-faceid-plus_sd15_lora.safetensors
-
-# IP-Adapter
-https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15.bin
-  out=models/ipadapter/ip-adapter-faceid-plusv2_sd15.bin
-
-# IP-Adapter
-https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sd15.bin
-  out=models/ipadapter/ip-adapter-faceid_sd15.bin
-
-# IP-Adapter
+# IP-Adapter FaceID Lora
 https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl_lora.safetensors
   out=models/loras/ip-adapter-faceid-plusv2_sdxl_lora.safetensors
 
-# IP-Adapter
-https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sd15_lora.safetensors
-  out=models/loras/ip-adapter-faceid_sd15_lora.safetensors
-
-# IP-Adapter
+# IP-Adapter + Vit-H
 https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter-plus_sdxl_vit-h.safetensors
   out=models/ipadapter/ip-adapter-plus_sdxl_vit-h.safetensors
 
-# IP-Adapter
+# IP-Adapter Vit-H
 https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl_vit-h.safetensors
   out=models/ipadapter/ip-adapter_sdxl_vit-h.safetensors
 
@@ -88,34 +52,18 @@ https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl_v
 https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl.safetensors
   out=models/ipadapter/ip-adapter_sdxl.safetensors
 
-# IP-Adapter
-https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.safetensors
-  out=models/ipadapter/ip-adapter_sd15.safetensors
-
-# IP-Adapter
-https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus-face_sd15.safetensors
-  out=models/ipadapter/ip-adapter-plus-face_sd15.safetensors
-
-# IP-Adapter
-https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors
-  out=models/ipadapter/ip-adapter-plus_sd15.safetensors
-
-# IP-Adapter
-https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-full-face_sd15.safetensors
-  out=models/ipadapter/ip-adapter-full-face_sd15.safetensors
-
-# IP-Adapter
+# IP-Adapter FaceID
 https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sdxl.bin
   out=models/ipadapter/ip-adapter-faceid_sdxl.bin
 
-# IP-Adapter
-https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plus_sd15.bin
-  out=models/ipadapter/ip-adapter-faceid-plus_sd15.bin
-
-# IP-Adapter
+# IP-Adapter + Face Vit-H
 https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter-plus-face_sdxl_vit-h.safetensors
   out=models/ipadapter/ip-adapter-plus-face_sdxl_vit-h.safetensors
 
-# ReActor
+# ReActor fp16
 https://github.com/facefusion/facefusion-assets/releases/download/models/inswapper_128_fp16.onnx
   out=models/insightface/inswapper_128_fp16.onnx
+
+# ReActor
+https://github.com/facefusion/facefusion-assets/releases/download/models/inswapper_128.onnx
+  out=models/insightface/inswapper_128.onnx
