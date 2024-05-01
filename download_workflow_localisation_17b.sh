@@ -124,7 +124,7 @@ if [ ! -d "~/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus" ]; then
 fi
 
 cd /home/scripts
-aria2c --allow-overwrite=false --auto-file-renaming=false --continue=true \
+aria2c --dir=/ --allow-overwrite=false --auto-file-renaming=false --continue=true \
     --max-connection-per-server=5 --input-file=download_workflow_localisation_17b.txt
 
 touch ./.download-complete
