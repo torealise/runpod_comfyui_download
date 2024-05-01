@@ -1,7 +1,7 @@
 #!/bin/bash
-echo '###################################'
-echo 'Downloading ComfyUI & components...'
-echo '###################################'
+echo '##################################'
+echo 'Downloading ComfyUI & components..'
+echo '##################################'
 
 set -euxo pipefail
 
