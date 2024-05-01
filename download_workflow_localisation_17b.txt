@@ -1,14 +1,14 @@
 # ControlNet OpenPose
 https://huggingface.co/thibaud/controlnet-openpose-sdxl-1.0/resolve/main/OpenPoseXL2.safetensors
-  out=~/ComfyUI/models/controlnet/OpenPoseXL2.safetensors
+  out=home/runner/ComfyUI/models/controlnet/OpenPoseXL2.safetensors
 
 # Ultralytics face
 https://huggingface.co/Bingsu/adetailer/resolve/main/face_yolov8m.pt
-  out=~/ComfyUI/models/ultralytics/bbox/face_yolov8m.pt
+  out=home/runner/ComfyUI/models/ultralytics/bbox/face_yolov8m.pt
 
 # Upscale 1x Skin
 https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/1x-ITF-SkinDiffDetail-Lite-v1.pth?download=true
-  out=~/ComfyUI/models/upscale_models/1x-ITF-SkinDiffDetail-Lite-v1.pth
+  out=home/runner/ComfyUI/models/upscale_models/1x-ITF-SkinDiffDetail-Lite-v1.pth
 
 # checkpoints Dreamshaper Turbo
 https://civitai.com/api/download/models/351306
@@ -16,92 +16,92 @@ https://civitai.com/api/download/models/351306
 
 # facerestore_models codeformer
 https://huggingface.co/ziixzz/codeformer-v0.1.0.pth/resolve/main/codeformer-v0.1.0.pth?download=true
-  out=~/ComfyUI/models/facerestore_models/codeformer-v0.1.0.pth
+  out=home/runner/ComfyUI/models/facerestore_models/codeformer-v0.1.0.pth
 
 # facerestore_models GFPGANv1.4
 https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.4.pth
-  out=~/ComfyUI/models/facerestore_models/GFPGANv1.4.pth
+  out=home/runner/ComfyUI/models/facerestore_models/GFPGANv1.4.pth
 
 # facerestore_models GFPGANv1.3
 https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.3.pth
-  out=~/ComfyUI/models/facerestore_models/GFPGANv1.3.pth
+  out=home/runner/ComfyUI/models/facerestore_models/GFPGANv1.3.pth
 
 # lora clothing_slider
 https://civitai.com/api/download/models/173623
-  out=~/ComfyUI/models/loras/sliders/SDXL_clothing_slider_v19_000000030.safetensors
+  out=home/runner/ComfyUI/models/loras/sliders/SDXL_clothing_slider_v19_000000030.safetensors
 
 #################################################
 
 # IP-Adapter ++ FaceID
 https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl.bin
-  out=~/ComfyUI/models/ipadapter/ip-adapter-faceid-plusv2_sdxl.bin
+  out=home/runner/ComfyUI/models/ipadapter/ip-adapter-faceid-plusv2_sdxl.bin
 
 # IP-Adapter FaceID Lora
 https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl_lora.safetensors
-  out=~/ComfyUI/models/loras/ip-adapter-faceid-plusv2_sdxl_lora.safetensors
+  out=home/runner/ComfyUI/models/loras/ip-adapter-faceid-plusv2_sdxl_lora.safetensors
 
 # IP-Adapter + Vit-H
 https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter-plus_sdxl_vit-h.safetensors
-  out=~/ComfyUI/models/ipadapter/ip-adapter-plus_sdxl_vit-h.safetensors
+  out=home/runner/ComfyUI/models/ipadapter/ip-adapter-plus_sdxl_vit-h.safetensors
 
 # IP-Adapter Vit-H
 https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl_vit-h.safetensors
-  out=~/ComfyUI/models/ipadapter/ip-adapter_sdxl_vit-h.safetensors
+  out=home/runner/ComfyUI/models/ipadapter/ip-adapter_sdxl_vit-h.safetensors
 
 # IP-Adapter
 https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl.safetensors
-  out=~/ComfyUI/models/ipadapter/ip-adapter_sdxl.safetensors
+  out=home/runner/ComfyUI/models/ipadapter/ip-adapter_sdxl.safetensors
 
 # IP-Adapter FaceID
 https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sdxl.bin
-  out=~/ComfyUI/models/ipadapter/ip-adapter-faceid_sdxl.bin
+  out=home/runner/ComfyUI/models/ipadapter/ip-adapter-faceid_sdxl.bin
 
 # IP-Adapter + Face Vit-H
 https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter-plus-face_sdxl_vit-h.safetensors
-  out=~/ComfyUI/models/ipadapter/ip-adapter-plus-face_sdxl_vit-h.safetensors
+  out=home/runner/ComfyUI/models/ipadapter/ip-adapter-plus-face_sdxl_vit-h.safetensors
 
 # ReActor fp16
 https://github.com/facefusion/facefusion-assets/releases/download/models/inswapper_128_fp16.onnx
-  out=~/ComfyUI/models/insightface/inswapper_128_fp16.onnx
+  out=home/runner/ComfyUI/models/insightface/inswapper_128_fp16.onnx
 
 # ReActor
 https://github.com/facefusion/facefusion-assets/releases/download/models/inswapper_128.onnx
-  out=~/ComfyUI/models/insightface/inswapper_128.onnx
+  out=home/runner/ComfyUI/models/insightface/inswapper_128.onnx
 
 ########################################################
 
 # segformer_b2_clothes
 
 https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/onnx/config.json
-  out=~/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/onnx/config.json
+  out=home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/onnx/config.json
 https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/onnx/model.onnx
-  out=~/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/onnx/model.onnx
+  out=home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/onnx/model.onnx
 https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/onnx/preprocessor_config.json
-  out=~/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/onnx/preprocessor_config.json
+  out=home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/onnx/preprocessor_config.json
 
 https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/.gitattributes
-  out=~/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/.gitattributes
+  out=home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/.gitattributes
 https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/.gitignore
-  out=~/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/.gitignore
+  out=home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/.gitignore
 https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/README.md
-  out=~/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/README.md
+  out=home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/README.md
 https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/config.json
-  out=~/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/config.json
+  out=home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/config.json
 https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/handler.py
-  out=~/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/handler.py
+  out=home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/handler.py
 https://huggingface.co/mattmdjaga/segformer_b2_clothes/resolve/main/model.safetensors?download=true
-  out=~/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/model.safetensors
+  out=home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/model.safetensors
 https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/optimizer.pt
-  out=~/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/optimizer.pt
+  out=home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/optimizer.pt
 https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/preprocessor_config.json
-  out=~/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/preprocessor_config.json
+  out=home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/preprocessor_config.json
 https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/pytorch_model.bin
-  out=~/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/pytorch_model.bin
+  out=home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/pytorch_model.bin
 https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/rng_state.pth
-  out=~/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/rng_state.pth
+  out=home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/rng_state.pth
 https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/scheduler.pt
-  out=~/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/scheduler.pt
+  out=home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/scheduler.pt
 https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/trainer_state.json
-  out=~/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/trainer_state.json
+  out=home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/trainer_state.json
 https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/training_args.bin
-  out=~/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/training_args.bin
+  out=home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/training_args.bin
