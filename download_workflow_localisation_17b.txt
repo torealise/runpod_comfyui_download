@@ -67,3 +67,41 @@ https://github.com/facefusion/facefusion-assets/releases/download/models/inswapp
 # ReActor
 https://github.com/facefusion/facefusion-assets/releases/download/models/inswapper_128.onnx
   out=models/insightface/inswapper_128.onnx
+
+########################################################
+
+# segformer_b2_clothes
+
+https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/onnx/config.json
+  out=/home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/onnx/config.json
+https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/onnx/model.onnx
+  out=/home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/onnx/model.onnx
+https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/onnx/preprocessor_config.json
+  out=/home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/onnx/preprocessor_config.json
+
+https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/.gitattributes
+  out=/home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/.gitattributes
+https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/.gitignore
+  out=/home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/.gitignore
+https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/README.md
+  out=/home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/README.md
+https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/config.json
+  out=/home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/config.json
+https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/handler.py
+  out=/home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/handler.py
+https://huggingface.co/mattmdjaga/segformer_b2_clothes/resolve/main/model.safetensors?download=true
+  out=/home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/model.safetensors
+https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/optimizer.pt
+  out=/home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/optimizer.pt
+https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/preprocessor_config.json
+  out=/home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/preprocessor_config.json
+https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/pytorch_model.bin
+  out=/home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/pytorch_model.bin
+https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/rng_state.pth
+  out=/home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/rng_state.pth
+https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/scheduler.pt
+  out=/home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/scheduler.pt
+https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/trainer_state.json
+  out=/home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/trainer_state.json
+https://huggingface.co/mattmdjaga/segformer_b2_clothes/blob/main/training_args.bin
+  out=/home/runner/ComfyUI/custom_nodes/Comfyui_segformer_b2_clothes/checkpoints/segformer_b2_clothes/training_args.bin
